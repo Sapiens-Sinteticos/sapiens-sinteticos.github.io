@@ -24,7 +24,9 @@
   "description": "Studio de IA que constrói studios próprios. Não é curso, é arquitetura de pensamento.",
   "sameAs": [
     "https://github.com/Sapiens-Sinteticos",
-    "https://aitag.app"
+    "https://aitag.app",
+    "https://inhabitants.zone",
+    "https://helenai.wtf"
   ]
 }
 </script>
@@ -166,6 +168,19 @@
     line-height: 1.7;
   }
   footer .sign { color: var(--mint); }
+  .rede {
+    margin-top: 1.6rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.6rem;
+    font-family: "Space Mono", monospace;
+    font-size: 0.82rem;
+    color: var(--muted);
+  }
+  .rede a { color: var(--muted); text-decoration: none; transition: color 0.2s ease; }
+  .rede a:hover { color: var(--mint); }
+  .rede .sep { opacity: 0.4; }
 </style>
 </head>
 <body>
@@ -184,8 +199,15 @@
 
     <div class="links">
       <a class="cta" href="https://sapiensinteticos.com">Entrar no studio &rarr;</a>
-      <a class="ghost" href="https://aitag.app">aitag.app, diretório de ferramentas de IA</a>
     </div>
+
+    <nav class="rede" aria-label="Rede">
+      <a href="https://aitag.app">aitag.app</a>
+      <span class="sep">·</span>
+      <a href="https://inhabitants.zone">inhabitants.zone</a>
+      <span class="sep">·</span>
+      <a href="https://helenai.wtf">helenai.wtf</a>
+    </nav>
 
     <footer>
       Acesso por convite, triagem por sintonia.<br>
